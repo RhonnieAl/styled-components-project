@@ -1,6 +1,6 @@
-import React from "react";
-import { StyledHeader } from "./Header.styled";
+import { StyledHeader, Nav, Logo } from "./Header.styled";
 import { Container } from "./Container.styled";
 import { GlobalStyles } from "./Global";
+import { Button } from "./Button.styled";
 
-export { StyledHeader, Container, GlobalStyles };
+export { Button, StyledHeader, Nav, Logo, Container, GlobalStyles };

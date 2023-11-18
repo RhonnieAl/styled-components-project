@@ -1,10 +1,15 @@
 import React from "react";
-import { StyledHeader } from "./styles";
+import { StyledHeader, Nav, Logo, Button, Container } from "./styles";
 
 export const MainHeader = () => {
   return (
     <StyledHeader>
-      <h1>I Like Turtles</h1>
+      <Container>
+        <Nav>
+          <Logo src="/logo.svg" alt="logo" />
+          <Button>Try For Free</Button>
+        </Nav>
+      </Container>
     </StyledHeader>
   );
 };
