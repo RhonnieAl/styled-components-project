@@ -8,6 +8,10 @@ const theme = {
     header: " #fff1e5",
     body: "#fff1e5",
     footer: "#003333",
+    button: "#fff1e5",
+    text: "#003333",
+    buttonText: "#003333",
+    buttonHover: "#ff8c00",
   },
 };
 

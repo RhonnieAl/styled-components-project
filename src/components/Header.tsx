@@ -1,12 +1,14 @@
 import React from "react";
-import { StyledHeader } from "./styles";
-import { Container } from "./styles";
+import { StyledHeader, Nav, Logo, Button, Container } from "./styles";
 
 export const MainHeader = () => {
   return (
     <StyledHeader>
       <Container>
-        <h1>I Like Turtles</h1>
+        <Nav>
+          <Logo src="/logo.svg" alt="logo" />
+          <Button>Try For Free</Button>
+        </Nav>
       </Container>
     </StyledHeader>
   );
