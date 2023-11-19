@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Button, Container } from "./styles";
+import { Flex, Button, Container, Image } from "./styles";
 
 export const Hero = () => {
   return (
@@ -14,7 +14,7 @@ export const Hero = () => {
           </p>
           <Button>Get Started For Free</Button>
         </div>
-        <img src="/illustration-mockups.svg" alt="mockups" />
+        <Image src="/illustration-mockups.svg" alt="mockups" />
       </Flex>
     </Container>
   );
