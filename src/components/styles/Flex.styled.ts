@@ -11,4 +11,11 @@ export const Flex = styled.div`
   & > ul {
     flex: 1;
   }
+
+  // Add Responsiveness. This is the media query for mobile.
+  // If the screen is smaller than the theme.mobile size, then the flex-direction will be column
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    flex-direction: column;
+    text-align: center;
+  }
 `;
