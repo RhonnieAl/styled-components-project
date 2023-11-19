@@ -13,6 +13,7 @@ const theme = {
     buttonText: "#003333",
     buttonHover: "#ff8c00",
   },
+  mobile: "768px",
 };
 
 function App() {
