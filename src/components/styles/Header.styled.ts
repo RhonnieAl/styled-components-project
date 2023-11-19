@@ -40,5 +40,7 @@ export const Image = styled.img`
   // then the Hero image will be spaced from the rest of the text by...
   @media (max-width: ${({ theme }) => theme.mobile}) {
     margin: 40px 0 40px;
+    width: 100%;
+    max-width: 80%;
   }
 `;
