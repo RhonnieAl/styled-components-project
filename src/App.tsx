@@ -1,7 +1,8 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import { MainHeader, Hero } from "../src/components";
+import { Card, MainHeader, Hero } from "../src/components";
 import { Container, GlobalStyles } from "../src/components/styles/index";
+import content from "./content";
 
 const theme = {
   color: {
@@ -24,7 +25,9 @@ function App() {
         <MainHeader />
         <Hero />
         <Container>
-          <h1>This is the header</h1>
+          {content.map((item, index) => (
+            <Card key={index} item={item} />
+          ))}
         </Container>
       </>
     </ThemeProvider>

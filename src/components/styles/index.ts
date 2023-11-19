@@ -3,6 +3,7 @@ import { Container } from "./Container.styled";
 import { GlobalStyles } from "./Global";
 import { Button } from "./Button.styled";
 import { Flex } from "./Flex.styled";
+import { StyledCard } from "./Card.styled";
 
 export {
   Image,
@@ -13,4 +14,5 @@ export {
   Logo,
   Container,
   GlobalStyles,
+  StyledCard,
 };
