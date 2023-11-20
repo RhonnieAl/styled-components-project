@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import { Card, MainHeader, Hero } from "../src/components";
+import { Card, MainHeader, Hero, Footer } from "../src/components";
 import { Container, GlobalStyles } from "../src/components/styles/index";
 import content from "./content";
 
@@ -29,6 +29,7 @@ function App() {
             <Card key={index} item={item} />
           ))}
         </Container>
+        <Footer />
       </>
     </ThemeProvider>
   );
