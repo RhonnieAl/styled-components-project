@@ -1,9 +1,8 @@
-import styled from "styled-components";
-import { Container, Flex } from "./styles";
+import { Container, Flex, StyledFooter } from "./styles";
 
 export const Footer = () => {
   return (
-    <div>
+    <StyledFooter>
       <Container>
         <img src="/logo_white.svg" alt="footer_logo" />
         <Flex>
@@ -29,8 +28,8 @@ export const Footer = () => {
           </ul>
           {/* Social Icons */}
         </Flex>
-        <p>&copy; 2023 HUddle. All rights reserved</p>
+        <p>&copy; 2023 Huddle. All rights reserved</p>
       </Container>
-    </div>
+    </StyledFooter>
   );
 };
