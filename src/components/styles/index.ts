@@ -4,6 +4,7 @@ import { GlobalStyles } from "./Global";
 import { Button } from "./Button.styled";
 import { Flex } from "./Flex.styled";
 import { StyledCard } from "./Card.styled";
+import { StyledFooter } from "./Footer.styled";
 
 export {
   Image,
@@ -15,4 +16,5 @@ export {
   Container,
   GlobalStyles,
   StyledCard,
+  StyledFooter,
 };
