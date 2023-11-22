@@ -5,6 +5,7 @@ import { Button } from "./Button.styled";
 import { Flex } from "./Flex.styled";
 import { StyledCard } from "./Card.styled";
 import { StyledFooter } from "./Footer.styled";
+import { StyledSocialIcons } from "./SocialIcons.styled";
 
 export {
   Image,
@@ -17,4 +18,5 @@ export {
   GlobalStyles,
   StyledCard,
   StyledFooter,
+  StyledSocialIcons,
 };

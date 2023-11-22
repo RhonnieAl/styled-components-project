@@ -1,4 +1,5 @@
 import { Container, Flex, StyledFooter } from "./styles";
+import { SocialIcons } from "./SocialIcons";
 
 export const Footer = () => {
   return (
@@ -26,7 +27,7 @@ export const Footer = () => {
             <li>Blog</li>
             <li>Contanct Us</li>
           </ul>
-          {/* Social Icons */}
+          <SocialIcons />
         </Flex>
         <p>&copy; 2023 Huddle. All rights reserved</p>
       </Container>

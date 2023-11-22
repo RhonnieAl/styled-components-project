@@ -3,12 +3,7 @@ import styled from "styled-components";
 export const StyledFooter = styled.footer`
   background-color: ${({ theme }) => theme.color.footer};
   color: #fff;
-  padding: 100px 0 60px;
-  /* text-align: center;
-  font-size: 14px;
-  font-weight: 600;
-  margin-top: 40px;
-  border-top: 1px solid #eee; */
+  padding: 100px 80px 20px;
 
   ul {
     list-style-type: none;
